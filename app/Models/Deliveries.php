@@ -17,8 +17,7 @@ class Deliveries extends Model
     'distribution_id',
     'transportation_id',
     'date_distributed',
-    'status',
-  
+    'status',  
      ];        
 
 }

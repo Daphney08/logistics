@@ -15,7 +15,7 @@ Route::get('/transportation', [ TransportationController::class, 'index' ])->nam
 Route::get('/transportation/create', [ TransportationController::class, 'create' ])->name('transportation.create');
 
 
-/** https://docs.google.com/presentation/d/1-0MuIQboCxLI3A1OevQQuDTDCTUoxk6N4sp0aPN_cX0/edit?usp=sharing
+/**
  * Save New transportation to Database
 */
 Route::post('/transportation/create/save', [ TransportationController::class, 'store' ])->name('transportation.create.save');
